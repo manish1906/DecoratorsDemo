@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Decorators</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="module.js"></script>
+</head>
+<body ng-controller="myController as vm">
+    <div ng-bind="vm.date | date:'fullDate'"></div>
+</body>
+</html>
